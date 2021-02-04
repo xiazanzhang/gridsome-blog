@@ -10,7 +10,8 @@ module.exports = {
     {
       use: '@gridsome/source-strapi',
       options: {
-        apiURL: process.env.GRIDSOME_API_URL,
+        // apiURL: process.env.GRIDSOME_API_URL,
+        apiURL: "http://strapi.codeuin.com",
         queryLimit: 1000, // Defaults to 100
         contentTypes: ['post', 'tag'],
         // typeName:'Strapi',
